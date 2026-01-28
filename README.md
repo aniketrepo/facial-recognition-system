@@ -10,13 +10,11 @@ The system detects a human face from a webcam feed and classifies the facial exp
 - Neutral
 - Sad
 - Surprise
----
 ## Objectives
 - To understand and implement the **Convolutional Neural Networks (CNNs)**
 - To perform **image-based emotion classification**
 - To build a **real-time emotion recognition system**
 - To gain hands-on experience with **TensorFlow, Keras and OpenCV**
----
 ## How the system works
 1. Facial images are used to train a CNN model
 2. Images are preprocessed (grayscale, normalized)
@@ -27,7 +25,7 @@ The system detects a human face from a webcam feed and classifies the facial exp
     - Face is detected
     - Emotion is predicted by the trained model
     - Emotion label is displayed in real time
----
+
 ## Project Structure
 ```bash
 facial-emotion-recognition/
@@ -48,7 +46,7 @@ facial-emotion-recognition/
 └── README.md                    # Project documentation
 
 ```
----
+
 ## Dataset Description
 The dataset used for training the model consists of facial images with the following properties:
 - Image size: 48 × 48 pixels
@@ -62,7 +60,7 @@ The dataset was obtained from Kaggle:
 https://www.kaggle.com/datasets/msambare/fer2013
 
 The dataset is **not included** in this repository due to size and licensing constraints.
----
+
 ## System Architecture
 The system follows the pipeline below:
 
@@ -70,7 +68,7 @@ The system follows the pipeline below:
 2. Feature extraction using Convolutional Neural Networks
 3. Emotion classification using a softmax output layer
 4. Real-time inference using webcam input
----
+
 ## Model Architecture
 The CNN model consists of:
 - Three convolutional layers with ReLU activation
@@ -82,13 +80,12 @@ The CNN model consists of:
 
 The model outputs probabilities for each of the seven emotion classes.
 
----
 ## Technologies Used
 - Python
 - TensorFlow / Keras
 - OpenCV
 - NumPy
----
+
 ## Installation Instructions
 ### Step 1: Clone the repository
 ```bash
@@ -100,7 +97,7 @@ cd facial-recognition-system
 ```bash
 pip install -r requirements.txt
 ```
----
+
 ## Training the Model
 To train the emotion recognition model, run:
 ```bash
@@ -110,7 +107,7 @@ This script:
 - Loads the dataset
 - Trains the CNN model
 - Saves the trained model as `emotion_model.h5`
----
+
 ## Real-Time Emotion Recognition
 To run real-time emotion detection using a webcam:
 ```bash
@@ -118,34 +115,32 @@ python emotion_webcam.py
 ```
 ### Controls:
 - Press `Q` to exit the application
----
+
 ## Output
 - Detected face is highlighted using a bounding box
 - Predicted emotion label is displayed above the face
 - Predictions are based on the highest probability from the model output
----
+
 ## Performance Notes
 - Accuracy depends on dataset size and class balance
 - Similar emotions such as fear and surprise may overlap
 - Lighting conditions affect face detection performance
 - Emotion recognition is probabilistic and not always exact
----
+
 ## Limitations
 - Works best with frontal faces
 - Sensitive to lighting and camera quality
 - Does not account for head pose variations
 - Emotion classification may vary across individuals 
----
+
 ## Future Enhancements (Maybe lol)
 - Data augmentation to improve accuracy
 - Confusion matrix and detailed evaluation metrics
 - Graphical User Interface
 - Integration with face recognition
 - Deployment as a web or desktop application
----
+
 ## Conclusion
 This project demonstrates a complete deep learning-based solution for facial emotion recognition. It includes dataset preparation, CNN training, model evaluation, and real-time emotion prediction using webcam input.
-
----
 ## Acknowledgements
 General AI-based tools were used for conceptual clarification and code refinement during development.
