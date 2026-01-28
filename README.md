@@ -1,4 +1,24 @@
-# Facial Recognition System (CNN + OpenCV)
+# Facial Recognition System
+A real-time deep learning system that classifies emotions from webcam feed using CNNs.
+## Table of Contents
+- [Overview](#overview)
+- [Objectives](#objectives)
+- [How the System Works](#how-the-system-works)
+- [Project Structure](#project-structure)
+- [Dataset Description](#dataset-description)
+- [System Architecture](#system-architecture)
+- [Model Architecture](#model-architecture)
+- [Technologies Used](#technologies-used)
+- [Installation Instructions](#installation-instructions)
+- [Training the Model](#training-the-model)
+- [Real-Time Emotion Recognition](#real-time-emotion-recognition)
+- [Output](#output)
+- [Performance Notes](#performance-notes)
+- [Limitations](#limitations)
+- [Future Enhancements](#future-enhancements)
+- [Conclusion](#conclusion)
+- [Acknowledgements](#acknowledgements)
+
 ## Overview
 This project implements a **Facial Emotion Recognition System** using **Deep Learning (CNN)** and **Computer Vision**.  
 The system detects a human face from a webcam feed and classifies the facial expression into one of seven emotions in real time.
@@ -134,7 +154,7 @@ python emotion_webcam.py
 - Does not account for head pose variations
 - Emotion classification may vary across individuals 
 
-## Future Enhancements (maybe lol)
+## Future Enhancements
 - Data augmentation to improve accuracy
 - Confusion matrix and detailed evaluation metrics
 - Graphical User Interface
