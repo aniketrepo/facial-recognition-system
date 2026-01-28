@@ -24,7 +24,7 @@ face_cascade = cv2.CascadeClassifier(
 cap = cv2.VideoCapture(0)
 
 if not cap.isOpened():
-    print("❌ Webcam not accessible")
+    print("Webcam not accessible")
     exit()
 
 # REAL-TIME LOOP
