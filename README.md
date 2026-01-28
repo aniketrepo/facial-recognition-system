@@ -111,4 +111,40 @@ This script:
 - Trains the CNN model
 - Saves the trained model as `emotion_model.h5`
 ---
+## Real-Time Emotion Recognition
+To run real-time emotion detection using a webcam:
+```bash
+python emotion_webcam.py
+```
+### Controls:
+- Press `Q` to exit the application
+---
+## Output
+- Detected face is highlighted using a bounding box
+- Predicted emotion label is displayed above the face
+- Predictions are based on the highest probability from the model output
+---
+## Performance Notes
+- Accuracy depends on dataset size and class balance
+- Similar emotions such as fear and surprise may overlap
+- Lighting conditions affect face detection performance
+- Emotion recognition is probabilistic and not always exact
+---
+## Limitations
+- Works best with frontal faces
+- Sensitive to lighting and camera quality
+- Does not account for head pose variations
+- Emotion classification may vary across individuals 
+---
+## Future Enhancements (Maybe lol)
+- Data augmentation to improve accuracy
+- Confusion matrix and detailed evaluation metrics
+- Graphical User Interface
+- Integration with face recognition
+- Deployment as a web or desktop application
+---
+## Conclusion
+This project demonstrates a complete deep learning-based solution for facial emotion recognition. It includes dataset preparation, CNN training, model evaluation, and real-time emotion prediction using webcam input.
+
+---
 
