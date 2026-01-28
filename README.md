@@ -2,6 +2,7 @@
 ## Overview
 This project implements a **Facial Emotion Recognition System** using **Deep Learning (CNN)** and **Computer Vision**.  
 The system detects a human face from a webcam feed and classifies the facial expression into one of seven emotions in real time.
+
 **Recognized emotions:**
 - Angry
 - Disgust
