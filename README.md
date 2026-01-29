@@ -115,21 +115,25 @@ The model outputs probabilities for each of the seven emotion classes.
 
 ## Installation Instructions
 ### Step 1: Clone the repository
+
 ```bash
 git clone https://github.com/aniketrepo/facial-recognition-system.git
 cd facial-recognition-system
 ```
 
 ### Step 2: Install dependencies
+
 ```bash
 pip install -r requirements.txt
 ```
 
 ## Training the Model
 To train the emotion recognition model, run:
+
 ```bash
 python train_emotion_model.py
 ```
+
 This script:
 - Loads the dataset
 - Trains the CNN model
@@ -137,9 +141,11 @@ This script:
 
 ## Real-Time Emotion Recognition
 To run real-time emotion detection using a webcam:
+
 ```bash
 python emotion_webcam.py
 ```
+
 ### Controls:
 - Press `Q` to exit the application
 
@@ -169,5 +175,3 @@ python emotion_webcam.py
 
 ## Conclusion
 This project demonstrates a complete deep learning-based solution for facial emotion recognition. It includes dataset preparation, CNN training, model evaluation, and real-time emotion prediction using webcam input.
-## Acknowledgements
-General AI-based tools were used for conceptual clarification and code refinement during development.
